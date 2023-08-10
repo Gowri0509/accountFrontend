@@ -1,0 +1,64 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="sticky-top"
+>
+  <nav
+    className="navbar navbar-expand-lg navbar-dark bg-dark sticky-top "
+  >
+    <a
+      className="navbar-brand"
+      href="/home"
+      onClick={[Function]}
+    >
+      WalletBanking
+    </a>
+    <button
+      aria-controls="navbarSupportedContent"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+      className="navbar-toggler"
+      data-target="#navbarSupportedContent"
+      data-toggle="collapse"
+      type="button"
+    >
+      <span
+        className="navbar-toggler-icon"
+      />
+    </button>
+    <div
+      className="collapse navbar-collapse"
+      id="navbarSupportedContent"
+    >
+      <ul
+        className="navbar-nav mr-auto"
+      >
+        <li
+          className="nav-item active"
+        >
+          <a
+            className="nav-link"
+            href="/"
+            onClick={[Function]}
+          >
+            Home 
+            <span
+              className="sr-only"
+            >
+              (current)
+            </span>
+             
+          </a>
+        </li>
+      </ul>
+      <span
+        className="navbar-text text-white me-5"
+      />
+    </div>
+  </nav>
+  <div
+    className="Toastify"
+  />
+</div>
+`;

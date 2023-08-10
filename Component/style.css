@@ -1,0 +1,58 @@
+.welcomeNote{
+font-size: 30px;
+color: black;
+text-justify: auto;
+}
+.text-black{
+color: rgb(27, 26, 26);
+}
+
+.pic-Col-6{
+    height: 100vh;
+    background-image: url("./money.jpg");
+    background-repeat: no-repeat;
+    background-size: 700px;
+    background-position-x:center ;
+    background-position-y:bottom;
+
+    
+}
+.content{
+    margin-top: 200px;
+}
+.content-text{
+font-size: 25px;    
+}
+
+  .nav-link1:hover {
+    background-color: #8ba4be;
+  }
+  
+  .nav-link.active {
+    background-color: #0056b3;
+  }
+   .nav-link1{
+    display: block;
+    background-color: rgb(192, 216, 228);
+    padding: 0.5rem 1rem;
+    border: 1px solid #73aaf1;
+    border-radius: 5px;
+    margin-right: 5px;
+} 
+  
+  /* Optional: Adjust the style for the active link based on your design */
+  .nav-link.active {
+    font-weight: bold;
+    /* Add other styles as needed */
+  }
+  .MuiTableHead-root {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color: #8a74a3; /* You can customize the background color */
+  }
+  
+  /* Optional: Add some padding for better visibility */
+  .MuiTableCell-head {
+    padding: 8px 16px;
+  }
